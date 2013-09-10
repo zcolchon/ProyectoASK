@@ -1,0 +1,29 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	color: #FFF;
+}
+.flex-control-nav, .flex-control-paging,.flex-direction-nav{
+	display: none;
+}
+div#fondo{
+	/*display: block;*/
+	position: fixed;
+	background: #000;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	z-index: 0;
+}
+section#wrapper{
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background: transparent url(../img/pattern.png) repeat top left;
+	color: white;
+}
+img{
+	width: 80%;
+	/*height: 80%;*/
+}
